@@ -1,3 +1,4 @@
-document.getElementsByTagName('div').onclick = function(){
-    alert('打不着')
+document.getElementById('div').onclick = function(){
+    alert('打不着');
+    console.log('aaa')
 }
